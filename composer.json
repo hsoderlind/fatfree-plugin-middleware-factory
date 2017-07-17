@@ -1,0 +1,11 @@
+{
+    "name": "hsoderlind/fatfree-plugin-middleware-factory",
+    "description": "Some helper classes for handling HTTP requests",
+    "require": {
+        "php" ">=5.3.6",
+        "hsoderlind/fatfree-plugin-http": ">=0.0.1"
+    },
+    "autoload": {
+        "psr-4": {"Hsoderlind\\FatfreePlugins\\MiddlewareFactory": "src/"}
+    }
+}
