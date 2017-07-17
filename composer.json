@@ -1,11 +1,17 @@
 {
     "name": "hsoderlind/fatfree-plugin-middleware-factory",
     "description": "Some helper classes for handling HTTP requests",
+    "repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/hsoderlind/fatfree-plugin-http"
+		}
+	],
     "require": {
         "php": ">=5.3.6",
-        "hsoderlind/fatfree-plugin-http": ">=0.0.1"
+        "hsoderlind/fatfree-plugin-http": ">=0.0.2"
     },
     "autoload": {
-        "psr-4": {"Hsoderlind\\FatfreePlugins\\MiddlewareFactory": "src/"}
+        "psr-4": {"Hsoderlind\\FatfreePlugins\\MiddlewareFactory\\": "src/"}
     }
 }
